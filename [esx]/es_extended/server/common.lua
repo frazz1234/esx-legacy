@@ -11,6 +11,11 @@ Core.RegisteredCommands = {}
 Core.Pickups = {}
 Core.PickupId = 0
 
+
+ESX.ServerCallbacks = Core.ServerCallbacks
+
+
+
 AddEventHandler('esx:getSharedObject', function(cb)
 	cb(ESX)
 end)
